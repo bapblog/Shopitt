@@ -39,23 +39,27 @@ Follow these instructions to get a local instance of Shopitt up and running.
    ```bash
    git clone https://github.com/yourusername/shopitt.git
    cd shopitt
-Install server dependencies:
+   
+- Install server dependencies:
 
-cd server
-npm install
-Install client dependencies:
+     ```bash
+     cd server
+     npm install
 
-cd ../client
-npm install
-Usage
-Start the server:
+- Install client dependencies:
+    ```bash
+    cd ../client
+    npm install
+## Usage
+- Start the server:
+    ```bash
+    cd ../server
+    npm start
+    Start the client:
 
-cd ../server
-npm start
-Start the client:
-
-cd ../client
-npm start
+    cd ../client
+    npm start
+  
 Access the application in your browser at http://localhost:3000
 
 ## Contributing
