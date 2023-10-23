@@ -1,0 +1,13 @@
+{
+  "name": "Shopz1",
+  "version": "1.0.0",
+  "description": "A Full Stack Stack Modern Ecommerce Site build Using MERN Stack ( MongoDB, Express, React, Node ) in Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harshal Ingole",
+  "license": "ISC"
+}
